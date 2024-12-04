@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(147, 216, 243);
+}
+
+.card{
+    width: 700px;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    line-height: 28px;
+}
+
+/*Scollbar */
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4bbc8b;
+    border-radius: 100px;
+}
